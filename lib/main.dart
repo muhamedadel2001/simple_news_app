@@ -32,6 +32,7 @@ class _MyAppState extends State<MyApp> {
           debugShowCheckedModeBanner: false,
           title: 'news app',
           theme: ThemeData(
+<<<<<<< HEAD
             // This is the theme of your application.
             //
             // Try running your application with "flutter run". You'll see the
@@ -41,6 +42,8 @@ class _MyAppState extends State<MyApp> {
             // or simply save your changes to "hot reload" in a Flutter IDE).
             // Notice that the counter didn't reset back to zero; the application
             // is not restarted.
+=======
+>>>>>>> b1c5344 (remove comments)
             primarySwatch: Colors.blue,
           ),
           onGenerateRoute: appRouter.onGenerateRoute,
