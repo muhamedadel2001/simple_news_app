@@ -8,6 +8,7 @@ import 'core/my_bloc_observer.dart';
 import 'data/remote/data_providers/my_dio.dart';
 
 void main() {
+  //noo
   Bloc.observer = MyBlocObserver();
   MyDio.dioInit();
   runApp(const MyApp());
@@ -22,7 +23,6 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   AppRouter appRouter = AppRouter();
-
   @override
   Widget build(BuildContext context) {
     return Sizer(builder: (context, orientation, deviceType) {
